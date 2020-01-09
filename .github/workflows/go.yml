@@ -25,4 +25,4 @@ jobs:
         fi
 
     - name: test and bench
-      run: go test -v -bench . -benchmem
+      run: go test -v -bench . -benchmem 2>&1
